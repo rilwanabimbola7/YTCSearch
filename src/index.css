@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-bar{
+  background-color: whitesmoke;
+  padding-top: 30px !important;
+  
+  
+  
+}
+
+.nav-text{
+  font-weight: 100;
+  font-size:medium;
+  margin: 5px;
+}
+.nav-text:hover{
+  text-decoration: underline;
+}
+.btn-apps{
+  background-color: whitesmoke !important;
+  border-radius: 50% !important;
+  border: 0px !important;
+  margin-right: 10px;
+  
+}
+.btn-apps:hover{
+  background-color: rgb(255, 255, 254) !important;
+}
+.btn-user{
+  background-color:black !important;
+  border-radius: 50% !important;
+  border: 0px !important;
+  padding: 5px !important;
+}
+.btn-user:hover{
+  padding: 4px !important;
+}
+.apps-container{
+  background-color: whitesmoke;
+  height: 400px;
+  align-items: center;
+  border-style: groove;
+  z-index: 2;
+  width: 330px;
+  position: absolute;
+  left:930px;
+  border-radius: 5%;
+  padding: 10px;
+  padding-left: 25px;
+  padding-top: 15px;
+  overflow:auto;
+  
+  
+}
+.apps{
+  height: 90px;
+  width:90px;
+  padding: 10px;
+  display: inline-block;
+}
+.apps:hover{
+  background-color: bisque;
+  border-radius: 10%;
+}
+.profile{
+  background-color: whitesmoke;
+  height: 400px !important;
+  border-style: groove;
+  z-index: 2;
+  width: 330px !important;
+  position: absolute !important;
+  left:930px;
+  border-radius: 5%;
+  padding: 10px;
+}
+.profile-photo{
+  width: 60px !important;
+  height: 60px !important;
+  margin-left: 120px !important;
+  border-radius: 50% !important;
+}
+.upload{
+  width: 0px ;
+  height: 0px ;
+  margin-left: 120px ;
+  border: 0px;
+  position: absolute;
+}
+.bio{
+  align-self: center;
+  
+}
+.card-title{
+  margin-left: 20px;
+  margin-bottom: 1px !important;
+}
+.btn-manage{
+  width: 210px ;
+  background-color:white;
+  border-radius: 10px;
+  border-style: solid
+}
+.btn-manage:hover{
+  background-color:whitesmoke;
+}
+.list-bg:hover{
+  background-color: whitesmoke !important;
+  cursor:pointer;
+}
+.search{
+  margin: 10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ytc-logo{
+  width:700px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.search-div{
+  
+  border-style: solid;
+  border-color: antiquewhite;
+  width:650px;
+  height: 50px;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+.search-div:hover{
+  box-shadow: 0 0 3px 0px rgb(125, 38, 38);
+}
+
+.search-input{
+  border-style: hidden;
+  outline: none;
+  width:600px;
+  
+  height: 45px;
+}
+.btn-search{
+  margin: 20px;
+  width:200px;
+  border:0px;
+  border-radius: 20px;
+}
+.btn-search:hover{
+  background-color:rgb(143, 111, 111);
+}
+.footer{
+  background-color: aqua !important;
+}
+.uk{
+  background-color: whitesmoke;
+  height: 70px;
+  padding-left: 100px;
+}
+.search-dropdown{
+  margin-top: -20px;
+  width: 650px;
+  height: 190px;
+  background-color: white;
+  box-shadow: 0 0 15px 0px #000;
+  overflow:hidden;
+  overflow-y: auto;
+  border-radius: 0px 0px 20px 20px ;
+
+  z-index: 2;  
+  border-top: 0px;
+  border-style: solid;
+  border-color: antiquewhite;
+  clip-path: inset(0px -15px -15px -15px);
+}
+.search-dropdown::-webkit-scrollbar{
+  display:none;
+}
+.search-dropdown .dataItem{
+  width:100%;
+  height:20px;
+  display:flex;
+  align-items:center;
+  color:black;
+}
+.search-dropdown .dataItem:hover{
+  background-color: antiquewhite;
+  cursor:pointer
+}
+.searchHeader-div{
+  margin-left: 50px;
+  border-style: solid;
+  border-color: antiquewhite;
+  width:550px;
+  height: 50px;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  
+  z-index: 1;
+}
+.search-body{
+  margin: 150px;
+}
+.btn-update{
+  border: 0px;
+  color:brown;
+  margin-right: 10px;
+  
+}
+.btn-setting{
+  background-color: brown!important;
+  border-radius: 50% !important;
+  border: 0px !important;
+  margin-right: 10px;
+}
+.btn-setting:hover{
+  background-color: rgb(255, 255, 254) !important; 
+}
+.btn-para{
+  margin-left: 20px;
+  border: 0px;
+  
+}
